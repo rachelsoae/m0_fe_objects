@@ -39,17 +39,24 @@ console.log(foods.milk);
 
 // Declare a variable that stores an object. Each key should be an attribute of an email and each
 // value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
+var email = {
+  sender: "Janet",
+  recipients: ["Rachel", "Andy", "Carla", "Joey"],
+  timeReceived: "4:09 pm",
+  subject: "Documents to sign",
+  threadLength: 4
+}
 
 // Write code that logs your email object to the terminal.
-
+console.log(email);
 
 // Write code that logs all of the 'keys' of the email object 
 // you created above:
-// YOUR CODE HERE
+console.log(Object.keys(email));
 
 // Write code that logs all of the 'values' of the email object 
 // you created above:
-// YOUR CODE HERE
+console.log(Object.values(email));
 
 
 // -------------------
